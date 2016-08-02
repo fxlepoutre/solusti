@@ -1,0 +1,102 @@
+/* 
+Main color: 
+Yale Blue - #184B8D 
+*/
+
+.zero {
+	color: #184B8D;
+}
+
+.main-nav, 
+.progress-bar.progress-bar-primary, 
+.single-table.featured, 
+.btn.btn-primary, 
+.twitter-icon .fa-twitter, 
+.twitter-left-control:hover, .twitter-right-control:hover, 
+.post-icon, 
+.entry-header .date:after, 
+.btn-loadmore:hover, 
+.btn-submit,
+#footer, 
+.caption .btn-start:hover, 
+.left-control:hover, 
+.right-control:hover, 
+.folio-overview a:hover {
+	background-color:#184B8D;
+}
+
+.twitter-left-control:hover, 
+.twitter-right-control:hover, 
+.btn-loadmore:hover  {
+	border: 1px solid #184B8D;
+}
+
+.zero,
+.caption .btn-start:hover, 
+.left-control:hover, 
+.right-control:hover {
+	border-color: #184B8D;
+}
+
+.twitter-icon .fa-twitter:after {
+	border-color: #184B8D transparent transparent;
+}
+
+
+
+/* 
+First color:
+Dark Orange - #FF8800 
+*/
+
+a,
+#home-slider .caption h1 span, 
+#twitter-carousel .item span, 
+#footer .footer-bottom, 
+#single-portfolio .close-folio-item:hover, 
+.single-table.featured .btn.btn-primary, 
+.contact-info ul li a:hover, 
+#footer .footer-bottom a,
+.one {
+	color: #FF8800;
+	border-color: #FF8800
+}
+.btn.btn-primary:hover,
+.btn-submit:hover {
+  background-color: #FF8800
+}
+
+a:hover, a:focus {
+	color: #FF8800;
+}
+
+
+/* 
+Second color: 
+Eerie Black - #161925
+*/
+
+.two {
+	color: #161925;
+	border-color: #161925
+}
+
+/*
+Third color: 
+Sheen Green - #97CC04 
+*/
+
+.three {
+	color: #97CC04;
+	border-color: #97CC04
+}
+
+/* 
+Fourth colur: 
+Coral Red - #FB3640 
+*/
+
+.four {
+	color: #FB3640;
+	border-color: #FB3640
+}
