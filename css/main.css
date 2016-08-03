@@ -126,6 +126,31 @@ section {
   position: relative;
 }
 
+#home-slider .language-bar {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+#home-slider .language-bar li {
+  opacity: 0.6;
+  display: inline-block;
+}
+#home-slider .language-bar li:before{
+  content: "|";
+  opacity: 1;
+  display: inline-block;
+  padding: 0 10px;
+}
+#home-slider .language-bar li:first-child:before{
+  display: none;
+}
+#home-slider .language-bar li:hover {
+  opacity: 1;
+}
+
 #home-slider .caption {
   position: absolute;
   top: 50%;

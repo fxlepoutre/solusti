@@ -4,7 +4,7 @@ Yale Blue - #184B8D
 */
 
 .zero {
-	color: #184B8D;
+  color: #184B8D;
 }
 
 .main-nav, 
@@ -22,24 +22,24 @@ Yale Blue - #184B8D
 .left-control:hover, 
 .right-control:hover, 
 .folio-overview a:hover {
-	background-color:#184B8D;
+  background-color:#184B8D;
 }
 
 .twitter-left-control:hover, 
 .twitter-right-control:hover, 
 .btn-loadmore:hover  {
-	border: 1px solid #184B8D;
+  border: 1px solid #184B8D;
 }
 
 .zero,
 .caption .btn-start:hover, 
 .left-control:hover, 
 .right-control:hover {
-	border-color: #184B8D;
+  border-color: #184B8D;
 }
 
 .twitter-icon .fa-twitter:after {
-	border-color: #184B8D transparent transparent;
+  border-color: #184B8D transparent transparent;
 }
 
 
@@ -58,8 +58,8 @@ a,
 .contact-info ul li a:hover, 
 #footer .footer-bottom a,
 .one {
-	color: #FF8800;
-	border-color: #FF8800
+  color: #FF8800;
+  border-color: #FF8800
 }
 .btn.btn-primary:hover,
 .btn-submit:hover {
@@ -67,7 +67,7 @@ a,
 }
 
 a:hover, a:focus {
-	color: #FF8800;
+  color: #FF8800;
 }
 
 
@@ -77,8 +77,8 @@ Eerie Black - #161925
 */
 
 .two {
-	color: #161925;
-	border-color: #161925
+  color: #161925;
+  border-color: #161925
 }
 
 /*
@@ -87,8 +87,8 @@ Sheen Green - #97CC04
 */
 
 .three {
-	color: #97CC04;
-	border-color: #97CC04
+  color: #97CC04;
+  border-color: #97CC04
 }
 
 /* 
@@ -97,6 +97,15 @@ Coral Red - #FB3640
 */
 
 .four {
-	color: #FB3640;
-	border-color: #FB3640
+  color: #FB3640;
+  border-color: #FB3640
+}
+
+
+/*
+Fifth color: 
+White
+*/
+#home-slider .language-bar ul li a{
+  color: white;
 }
