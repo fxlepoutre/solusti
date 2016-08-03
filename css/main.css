@@ -87,11 +87,11 @@ a:hover {
 }
 
 section {
-  padding: 90px 0;
+  padding: 180px 0 90px 0;
 }
 
 .heading {
-  padding-bottom:90px;
+  padding-bottom:50px;
 }
 
 .preloader {
@@ -313,6 +313,10 @@ section {
   margin-top: 35px;
 }
 
+.our-services .service-info .btn {
+  white-space: normal;
+}
+
 
 
 /*************************
@@ -334,7 +338,7 @@ section {
 }
 
 #contact-us .heading {
-  padding-top: 95px;
+  padding-top: 55px;
 }
 
 .form-control {

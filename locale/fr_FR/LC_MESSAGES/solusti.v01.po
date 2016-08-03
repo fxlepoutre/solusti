@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-02 08:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FX <fx@solusti.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.php:11
+msgid "Solusti | Your partner to successful WMS"
+msgstr "Solusti | Votre partenaire WMS"
+
+#: index.php:40
+msgid "JDA / RedPrairie WMS solutions for your"
+msgstr "Solutions WMS JDA / RedPrairie pour votre"
+
+#: index.php:40
+msgid "warehouse"
+msgstr "entrepôt"
+
+#: index.php:41
+msgid "Need training, customized reports, troubleshooting or integration?"
+msgstr "Besoin de formation, de rapports personnalisés, d'un diagnostic ou d'une intégration ?"
+
+#: index.php:42
+msgid "Contact us now"
+msgstr "Contactez-nous maintenant"
+
+#: index.php:64
+msgid "Home"
+msgstr "Accueil"
+
+#: index.php:65
+msgid "Services"
+msgstr "Services"
+
+#: index.php:66
+msgid "Contact"
+msgstr "Contact"
+
+#: index.php:78
+msgid "Our Services"
+msgstr "Nos Services"
+
+#: index.php:79
+msgid "Here's what we offer. Contact us for more details."
+msgstr "Forts de plusieurs années d'expérience dans les systèmes de gestion d'entrepôt (Warehouse Management System ou WMS), nous pouvons vous apporter l'aide nécessaire à la réalisation de vos projets."
+
+#: index.php:90
+msgid "Trainings"
+msgstr "Formations"
+
+#: index.php:91
+msgid ""
+"Go through a discovery session of JDA and/or train functional and technical "
+"teams on how to use and configure JDA."
+msgstr ""
+"Participez à une session de découverte de JDA et/ou formez vos équipes fonctionnelles et techniques "
+"à utiliser et configurer JDA."
+
+#: index.php:92
+msgid "Schedule your training now!"
+msgstr "Planifiez votre formation maintenant !"
+
+#: index.php:100
+msgid "Reports"
+msgstr "Rapports"
+
+#: index.php:101
+msgid ""
+"Develop and customize business reports: create documents for daily usage or "
+"extract data for business analysis."
+msgstr ""
+"Développez et personnalisez vos rapports métier: créez des documents pour le quotidien ou "
+"récupérez des données pour vos analyses."
+
+#: index.php:102
+msgid "Get your reports now!"
+msgstr "Créez vos rapports maintenant !"
+
+#: index.php:110
+msgid "Troubleshooting"
+msgstr "Diagnostic"
+
+#: index.php:111
+msgid "Diagnose technical and functional issues on your system and processes."
+msgstr "Diagnostiquez les problèmes techniques et fonctionnels de votre système et vos processus."
+
+#: index.php:112
+msgid "Get assistance now!"
+msgstr "Faites-vous aider maintenant !"
+
+#: index.php:120
+msgid "Integration"
+msgstr "Intégration"
+
+#: index.php:121
+msgid ""
+"Build integration with external systems, connect your ERP with the WMS "
+"(orders, shipments, inventory)."
+msgstr ""
+"Intégrez vos systèmes les uns avec les autres, connectez votre ERP à votre WMS "
+"(commandes, livraisons, inventaire)."
+
+#: index.php:122
+msgid "Start your integration now!"
+msgstr "Commencez votre intégration maintenant !"
+
+#: index.php:136
+msgid "Contact Us"
+msgstr "Nous Contacter"
+
+#: index.php:146
+msgid "Name"
+msgstr "Nom"
+
+#: index.php:151
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: index.php:156
+msgid "Subject"
+msgstr "Sujet"
+
+#: index.php:159
+msgid "Enter your message"
+msgstr "Entrez votre message"
+
+#: index.php:162
+msgid "Send Now"
+msgstr "Envoyez maintenant"
+
+#: index.php:171
+msgid "Get directions..."
+msgstr "Obtenir l'itinéraire"
+
+#: index.php:172
+msgid "Phone"
+msgstr "Téléphone"
+
+#: index.php:173
+msgid "Email"
+msgstr "Email"
+
+#: index.php:174
+msgid "Website"
+msgstr "Site Web"

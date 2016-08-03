@@ -41,12 +41,12 @@
 		font-size: 14px;
 	}
 	#home-slider .caption h1 {
-		font-size: 40px;
-		margin-top: -80px;
+		font-size: 32px;
 	}
 	#home-slider .caption {
-		font-size: 15px;
+		font-size: 14px;
 		padding: 0 30px;
+		margin-top: -220px;
 	}
 	.left-control, .right-control {
 		font-size: 20px;
@@ -82,7 +82,7 @@
 
 	/*services*/
 	section {
-		padding: 45px 0;
+	  padding: 90px 0 45px 0;
 	}
 	.heading {
 		font-size: 14px;
@@ -204,6 +204,9 @@
 	.btn-loadmore {
 		font-size: 12px;
 		padding: 15px 75px;
+	}
+	#google-map {
+	  height: 200px;
 	}
 	#contact-us .heading {
 		padding-top: 35px;

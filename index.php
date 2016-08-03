@@ -1,11 +1,11 @@
+<?php require 'localization.php' ; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Solusti | Your partner to successful WMS</title>
+  <title><?= _('Solusti | Your partner to successful WMS') ?></title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.min.css" rel="stylesheet"> 
   <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -13,15 +13,13 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/solusti-colors.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
-
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
   <![endif]-->
-  
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="images/favicon.ico">
-</head><!--/head-->
+</head>
 
 <body>
 
@@ -34,9 +32,9 @@
       <div class="carousel-inner">
         <div class="item active" style="background-image: url(images/slider-bg.jpg)">
           <div class="caption">
-            <h1 class="animated fadeInLeftBig">JDA / RedPrairie WMS solutions for your <span>warehouse</span></h1>
-            <p class="animated fadeInRightBig">Need training, customized reports, troubleshooting or integration?</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact-us">Contact us now</a>
+            <h1 class="animated fadeInLeftBig"><?= _('JDA / RedPrairie WMS solutions for your') ?> <span><?= _('warehouse') ?></span></h1>
+            <p class="animated fadeInRightBig"><?= _('Need training, customized reports, troubleshooting or integration?') ?></p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact"><?= _('Contact us now') ?></a>
           </div>
         </div>
       </div>
@@ -58,9 +56,9 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">                 
-            <li class="scroll active"><a href="#home">Home</a></li>
-            <li class="scroll"><a href="#services">Services</a></li>
-            <li class="scroll"><a href="#contact">Contact</a></li>       
+            <li class="scroll active"><a href="#home"><?= _('Home') ?></a></li>
+            <li class="scroll"><a href="#services"><?= _('Services') ?></a></li>
+            <li class="scroll"><a href="#contact"><?= _('Contact') ?></a></li>       
           </ul>
         </div>
       </div>
@@ -72,8 +70,8 @@
       <div class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
         <div class="row">
           <div class="text-center col-sm-8 col-sm-offset-2">
-            <h2>Our Services</h2>
-            <p>Here's what we offer. Contact us for more details.</p>
+            <h2><?= _('Our Services') ?></h2>
+            <p><?= _('Here\'s what we offer. Contact us for more details.') ?></p>
           </div>
         </div> 
       </div>
@@ -84,9 +82,9 @@
               <i class="fa fa-graduation-cap"></i>
             </div>
             <div class="service-info">
-              <h3>Trainings</h3>
-              <p>Go through a discovery session of JDA and/or train functional and technical teams on how to use and configure JDA.</p>
-              <p><a data-scroll class="btn" href="#contact-us">Schedule your training now!</a></p>
+              <h3><?= _('Trainings') ?></h3>
+              <p><?= _('Go through a discovery session of JDA and/or train functional and technical teams on how to use and configure JDA.') ?></p>
+              <p><a data-scroll class="btn" href="#contact"><?= _('Schedule your training now!') ?></a></p>
             </div>
           </div>
           <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="250ms">
@@ -94,9 +92,9 @@
               <i class="fa fa-line-chart"></i>
             </div>
             <div class="service-info">
-              <h3>Reports</h3>
-              <p>Develop and customize business reports: create documents for daily usage or extract data for business analysis.</p>
-              <p><a data-scroll class="btn" href="#contact-us">Get your reports now!</a></p>
+              <h3><?= _('Reports') ?></h3>
+              <p><?= _('Develop and customize business reports: create documents for daily usage or extract data for business analysis.') ?></p>
+              <p><a data-scroll class="btn" href="#contact"><?= _('Get your reports now!') ?></a></p>
             </div>
           </div>
           <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="350ms">
@@ -104,9 +102,9 @@
               <i class="fa fa-search"></i>
             </div>
             <div class="service-info">
-              <h3>Troubleshooting</h3>
-              <p>Diagnose technical and functional issues on your system and processes.</p>
-              <p><a data-scroll class="btn" href="#contact-us">Get assistance now!</a></p>
+              <h3><?= _('Troubleshooting') ?></h3>
+              <p><?= _('Diagnose technical and functional issues on your system and processes.') ?></p>
+              <p><a data-scroll class="btn" href="#contact"><?= _('Get assistance now!') ?></a></p>
             </div>
           </div>
           <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="450ms">
@@ -114,9 +112,9 @@
               <i class="fa fa-connectdevelop"></i>
             </div>
             <div class="service-info">
-              <h3>Integration</h3>
-              <p>Build integration with external systems, connect your ERP with the WMS (orders, shipments, inventory).</p>
-              <p><a data-scroll class="btn" href="#contact-us">Start your integration now!</a></p>
+              <h3><?= _('Integration') ?></h3>
+              <p><?= _('Build integration with external systems, connect your ERP with the WMS (orders, shipments, inventory).') ?></p>
+              <p><a data-scroll class="btn" href="#contact"><?= _('Start your integration now!') ?></a></p>
             </div>
           </div>
         </div>
@@ -130,7 +128,7 @@
       <div class="container">
         <div class="row">
           <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
-            <h2>Contact Us</h2>
+            <h2><?= _('Contact Us') ?></h2>
           </div>
         </div>
         <div class="contact-form wow fadeIn" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -140,23 +138,23 @@
                 <div class="row  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                      <input type="text" name="name" class="form-control" placeholder="<?= _('Name') ?>" required="required">
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                      <input type="email" name="email" class="form-control" placeholder="<?= _('Email Address') ?>" required="required">
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                  <input type="text" name="subject" class="form-control" placeholder="<?= _('Subject') ?>" required="required">
                 </div>
                 <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="<?= _('Enter your message') ?>" required="required"></textarea>
                 </div>                        
                 <div class="form-group">
-                  <button type="submit" class="btn-submit">Send Now</button>
+                  <button type="submit" class="btn-submit"><?= _('Send Now') ?></button>
                 </div>
               </form>   
             </div>
@@ -165,10 +163,10 @@
                 <p></p>
                 <ul class="address">
                   <li><i class="fa fa-map-marker"></i> <span>solusti</span> - 223 rue de Charenton - 75012 Paris - FRANCE</li>
-                  <li><i class="fa fa-map-signs"></i> <a href='https://maps.google.com/maps?ll=48.83815,2.390798&z=16&t=m&hl=fr&gl=US&mapclient=embed&daddr=223%20Rue%20de%20Charenton%2075012%20Paris%20France@48.8381501,2.3907978'>Get directions...</a> </li>
-                  <li><i class="fa fa-phone"></i> <span> Phone:</span> +33 (0)6 68 76 86 00</li>
-                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:contact@solusti.com"> contact@solusti.com</a></li>
-                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.solusti.com</a></li>
+                  <li><i class="fa fa-map-signs"></i> <a href='https://maps.google.com/maps?ll=48.83815,2.390798&z=16&t=m&hl=fr&gl=US&mapclient=embed&daddr=223%20Rue%20de%20Charenton%2075012%20Paris%20France@48.8381501,2.3907978'><?= _('Get directions...') ?></a> </li>
+                  <li><i class="fa fa-phone"></i> <span> <?= _('Phone') ?>:</span> +33 (0)6 68 76 86 00</li>
+                  <li><i class="fa fa-envelope"></i> <span> <?= _('Email') ?>:</span><a href="mailto:contact@solusti.com"> contact@solusti.com</a></li>
+                  <li><i class="fa fa-globe"></i> <span> <?= _('Website') ?>:</span> <a href="#">www.solusti.com</a></li>
                 </ul>
               </div>                            
             </div>
