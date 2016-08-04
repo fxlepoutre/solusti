@@ -1,27 +1,28 @@
 <?php
   session_start();
+  define('BASE_DIR','/');
   require 'localization.php' ;
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="<?=substr($_SESSION["locale"],0,2)?>" >
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Francois-Xavier Lepoutre">
   <title><?= _('Solusti | Your partner to successful WMS') ?></title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/lightbox.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/solusti-colors.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
+  <link href="<?=BASE_DIR?>css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?=BASE_DIR?>css/animate.min.css" rel="stylesheet">
+  <link href="<?=BASE_DIR?>css/font-awesome.min.css" rel="stylesheet">
+  <link href="<?=BASE_DIR?>css/lightbox.css" rel="stylesheet">
+  <link href="<?=BASE_DIR?>css/main.css" rel="stylesheet">
+  <link href="<?=BASE_DIR?>css/solusti-colors.css" rel="stylesheet">
+  <link href="<?=BASE_DIR?>css/responsive.css" rel="stylesheet">
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
   <script src="js/respond.min.js"></script>
   <![endif]-->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="<?=BASE_DIR?>images/favicon.ico">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
   <header id="home">
   <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="item active" style="background-image: url(images/slider-bg.jpg)">
+      <div class="item active" style="background-image: url(<?=BASE_DIR?>images/slider-bg.jpg)">
         <div class="caption">
         <h1 class="animated fadeInLeftBig"><?= _('JDA / RedPrairie WMS solutions for your') ?> <span><?= _('warehouse') ?></span></h1>
         <p class="animated fadeInRightBig"><?= _('Need training, customized reports, troubleshooting or integration?') ?></p>
@@ -43,8 +44,8 @@
     </div>
     <div class="language-bar">
       <ul>
-        <li><a href="?locale=fr_FR">Français</a></li>
-        <li><a href="?locale=en_US">English</a></li>
+        <li><a href="<?=BASE_DIR?>fr/">Français</a></li>
+        <li><a href="<?=BASE_DIR?>en/">English</a></li>
       </ul>
     </div>
     <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
@@ -60,7 +61,7 @@
       <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="">
-      <h1><img class="img-responsive" src="images/logo2_sm.png" alt="logo"></h1>
+      <h1><img class="img-responsive" src="<?=BASE_DIR?>images/logo2_sm.png" alt="logo"></h1>
       </a>
     </div>
     <div class="collapse navbar-collapse">
@@ -188,7 +189,7 @@
   <div class="footer-top wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
     <div class="container text-center">
     <div class="footer-logo">
-      <a href=""><img class="img-responsive" src="images/logo2_sm.png" alt=""></a>
+      <a href=""><img class="img-responsive" src="<?=BASE_DIR?>images/logo2_sm.png" alt=""></a>
     </div>
     </div>
   </div>
@@ -197,16 +198,16 @@
   </div>
   </footer>
 
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/jquery.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVl8u5JOgrFhwneD1TFmdzZizn-gmMadI"></script>
-  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-  <script type="text/javascript" src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/mousescroll.js"></script>
-  <script type="text/javascript" src="js/smoothscroll.js"></script>
-  <script type="text/javascript" src="js/jquery.countTo.js"></script>
-  <script type="text/javascript" src="js/lightbox.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/wow.min.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/mousescroll.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/smoothscroll.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/lightbox.min.js"></script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/main.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
