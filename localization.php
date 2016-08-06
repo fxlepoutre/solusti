@@ -4,7 +4,7 @@
 $available_locales = array('en'=>'en_US', 'fr'=>'fr_FR');
 $default_language = 'en';
 $encoding = 'UTF-8';
-$domain = 'solusti.v01';
+$domain = 'solusti.v02';
 
 // Algorithm to set locale and redirect to the proper locale.
 if (isset($_GET["lang"]) && in_array($_GET["lang"],array_keys($available_locales)) ) {
@@ -12,6 +12,7 @@ if (isset($_GET["lang"]) && in_array($_GET["lang"],array_keys($available_locales
   $_SESSION['lang'] = $_GET["lang"];
 } else {
   if(isset($_SESSION['lang']) && in_array($_SESSION["lang"],array_keys($available_locales))) {
+    // Get locale based on session.
     header('HTTP/1.0 301 Moved Permanently', false, 301);      
     header('Location: /'.$_SESSION['lang'].'/');
     exit(); 

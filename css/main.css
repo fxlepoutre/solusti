@@ -412,6 +412,15 @@ ul.address {
   margin-top: 40px;
 }
 
+.form_status p {
+  display: none;
+}
+
+
+/*************************
+**********Footer CSS*****
+**************************/
+
 #footer {
   color:#fff;
 }

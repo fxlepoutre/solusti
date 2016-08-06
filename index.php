@@ -4,10 +4,10 @@
   require 'localization.php' ;
 ?>
 <!DOCTYPE html>
-<html lang="<?=substr($_SESSION["locale"],0,2)?>" >
+<html lang="<?=$_SESSION['lang']?>" >
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="<?= _('solusti provides expertise in JDA / Redprairie WMS for trainings, report creation, troubleshooting or interfacing with ERPs.')?>">
   <meta name="author" content="Francois-Xavier Lepoutre">
   <title><?= _('Solusti | Your partner to successful WMS') ?></title>
   <link href="<?=BASE_DIR?>css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 <body>
 
   <!--.preloader-->
-  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
   <!--/.preloader-->
 
   <header id="home">
@@ -144,17 +144,17 @@
     <div class="contact-form wow fadeIn" data-wow-duration="500ms" data-wow-delay="300ms">
       <div class="row">
       <div class="col-sm-6">
-        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+        <form id="main-contact-form" name="contact-form" method="post" action="<?=BASE_DIR?>sendemail.php">
         <div class="row  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
           <div class="col-sm-6">
-          <div class="form-group">
-            <input type="text" name="name" class="form-control" placeholder="<?= _('Name') ?>" required="required">
-          </div>
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="<?= _('Name') ?>" required="required">
+            </div>
           </div>
           <div class="col-sm-6">
-          <div class="form-group">
-            <input type="email" name="email" class="form-control" placeholder="<?= _('Email Address') ?>" required="required">
-          </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="<?= _('Email Address') ?>" required="required">
+            </div>
           </div>
         </div>
         <div class="form-group">
@@ -164,6 +164,10 @@
           <textarea name="message" id="message" class="form-control" rows="4" placeholder="<?= _('Enter your message') ?>" required="required"></textarea>
         </div>
         <div class="form-group">
+          <div class="form_status">
+            <p class="form_status_wip"><i class="fa fa-spinner fa-spin"></i> <?= _('Your message is being sent...'); ?></p>
+            <p class="form_status_success"><i class="fa fa-envelope-o"></i> <?= _('Your message has been sent, thank you, we will be in touch shortly.'); ?></p>
+          </div>
           <button type="submit" class="btn-submit"><?= _('Send Now') ?></button>
         </div>
         </form>
@@ -216,6 +220,5 @@
     ga('create', 'UA-81709228-1', 'auto');
     ga('send', 'pageview');
   </script>
-
 </body>
 </html>
