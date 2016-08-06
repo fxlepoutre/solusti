@@ -10,9 +10,9 @@
   <meta name="description" content="<?= _('solusti provides expertise in JDA / Redprairie WMS for trainings, report creation, troubleshooting or interfacing with ERPs.')?>">
   <meta name="author" content="Francois-Xavier Lepoutre">
   <title><?= _('Solusti | Your partner to successful WMS') ?></title>
-  <link href="<?=BASE_DIR?>css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="<?=BASE_DIR?>css/animate.min.css" rel="stylesheet">
-  <link href="<?=BASE_DIR?>css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link href="<?=BASE_DIR?>css/lightbox.css" rel="stylesheet">
   <link href="<?=BASE_DIR?>css/main.css" rel="stylesheet">
   <link href="<?=BASE_DIR?>css/solusti-colors.css" rel="stylesheet">
@@ -202,8 +202,8 @@
   </div>
   </footer>
 
-  <script type="text/javascript" src="<?=BASE_DIR?>js/jquery.js"></script>
-  <script type="text/javascript" src="<?=BASE_DIR?>js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVl8u5JOgrFhwneD1TFmdzZizn-gmMadI"></script>
   <script type="text/javascript" src="<?=BASE_DIR?>js/jquery.inview.min.js"></script>
   <script type="text/javascript" src="<?=BASE_DIR?>js/wow.min.js"></script>
@@ -212,7 +212,7 @@
   <script type="text/javascript" src="<?=BASE_DIR?>js/jquery.countTo.js"></script>
   <script type="text/javascript" src="<?=BASE_DIR?>js/lightbox.min.js"></script>
   <script type="text/javascript" src="<?=BASE_DIR?>js/main.js"></script>
-  <script>
+  <script type="text/javascript" >
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

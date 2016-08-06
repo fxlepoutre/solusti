@@ -10,6 +10,7 @@ $domain = 'solusti.v02';
 if (isset($_GET["lang"]) && in_array($_GET["lang"],array_keys($available_locales)) ) {
   $locale = $available_locales[$_GET["lang"]];
   $_SESSION['lang'] = $_GET["lang"];
+  $_SESSION['locale'] = $locale;
 } else {
   if(isset($_SESSION['lang']) && in_array($_SESSION["lang"],array_keys($available_locales))) {
     // Get locale based on session.
