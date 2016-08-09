@@ -10,6 +10,9 @@
   <meta name="description" content="<?= _('solusti provides expertise in JDA / Redprairie WMS for trainings, report creation, troubleshooting or interfacing with ERPs.')?>">
   <meta name="author" content="Francois-Xavier Lepoutre">
   <title><?= _('Solusti | Your partner to successful WMS') ?></title>
+  <link rel="alternate" href="http://solusti.com/fr/" hreflang="fr-fr" />
+  <link rel="alternate" href="http://solusti.com/en/" hreflang="en-gb" />
+  <link rel="alternate" href="http://solusti.com/en/" hreflang="en-us" />
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="<?=BASE_DIR?>css/animate.min.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -179,7 +182,7 @@
           <li><i class="fa fa-map-marker"></i> <span>solusti</span> - 223 rue de Charenton - 75012 Paris - FRANCE</li>
           <li><i class="fa fa-map-signs"></i> <a href='https://maps.google.com/maps?ll=48.83815,2.390798&z=16&t=m&hl=fr&gl=US&mapclient=embed&daddr=223%20Rue%20de%20Charenton%2075012%20Paris%20France@48.8381501,2.3907978'><?= _('Get directions...') ?></a> </li>
           <li><i class="fa fa-phone"></i> <span> <?= _('Phone') ?>:</span> +33 (0)6 68 76 86 00</li>
-          <li><i class="fa fa-envelope"></i> <span> <?= _('Email') ?>:</span><a href="mailto:contact@solusti.com"> contact@solusti.com</a></li>
+          <li><i class="fa fa-envelope"></i> <span> <?= _('Email') ?>:</span><a class="contactEmail" href="mailto:contact@solusti.com"> contact@solusti.com</a></li>
           <li><i class="fa fa-globe"></i> <span> <?= _('Website') ?>:</span> <a href="#">www.solusti.com</a></li>
         </ul>
         </div>
@@ -211,7 +214,6 @@
   <script type="text/javascript" src="<?=BASE_DIR?>js/smoothscroll.js"></script>
   <script type="text/javascript" src="<?=BASE_DIR?>js/jquery.countTo.js"></script>
   <script type="text/javascript" src="<?=BASE_DIR?>js/lightbox.min.js"></script>
-  <script type="text/javascript" src="<?=BASE_DIR?>js/main.js"></script>
   <script type="text/javascript" >
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -220,5 +222,6 @@
     ga('create', 'UA-81709228-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <script type="text/javascript" src="<?=BASE_DIR?>js/main.js"></script>
 </body>
 </html>

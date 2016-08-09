@@ -125,6 +125,12 @@ jQuery(function($) {
     var formData = $(this).serialize();
     var formDataArr = formData?JSON.parse('{"' + formData.replace(/&/g, '","').replace(/=/g,'":"').replace(/\+/g, ' ') + '"}',
                  function(key, value) { return key===""?value:decodeURIComponent(value) }):{};
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Contact',
+      eventAction: 'formSubmit',
+      eventLabel: formDataArr.email
+    });
     $.ajax({
       url: $(this).attr('action'),
       type: 'POST',
@@ -148,6 +154,17 @@ jQuery(function($) {
       }
     });
   });
+  
+  //Contact Email click
+  $('#contact').on('click', 'a.contactEmail', function(){
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Contact',
+        eventAction: 'emailLinkClick'
+      });
+    alert(1);
+  })
+
 
   //Google Map
   /* global google */
