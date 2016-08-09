@@ -162,7 +162,6 @@ jQuery(function($) {
         eventCategory: 'Contact',
         eventAction: 'emailLinkClick'
       });
-    alert(1);
   })
 
 
